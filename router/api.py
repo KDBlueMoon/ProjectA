@@ -9,7 +9,7 @@ router.include_router(
     tags=['User']
 )
 router.include_router(
-    login.router,
+    user.router,
     prefix= '/user',
     tags=['Login']
 )
